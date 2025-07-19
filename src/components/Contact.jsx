@@ -1,9 +1,10 @@
 export default function Contact() {
   return (
-    <section id="contact" className="container">
-      <h2 className="heading">Contact Me</h2>
-      <p>Feel free to reach out at:</p>
-      <p><a href="mailto:swapnil@example.com">swapnil@example.com</a></p>
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p><strong>Address:</strong> Pune, India</p>
+      <p><strong>Phone:</strong> +91 92848 50474</p>
+      <p><strong>Email:</strong> swapnilofficial08@gmail.com</p>
     </section>
   )
 }

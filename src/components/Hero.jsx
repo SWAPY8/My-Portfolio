@@ -1,9 +1,16 @@
 export default function Hero() {
   return (
-    <section style={{ textAlign: 'center', background: '#ddeeff', padding: '80px 20px' }}>
-      <h2 style={{ fontSize: '36px', marginBottom: '10px' }}>Hi, I'm Swapnil</h2>
-      <p style={{ fontSize: '18px', marginBottom: '20px' }}>Final Year Student | Full-Stack Developer</p>
-      <a href="#projects" style={{ background: '#333', color: '#fff', padding: '10px 20px', borderRadius: '5px' }}>See My Work</a>
+    <section id="home" className="card" style={{textAlign: 'center'}}>
+      <h1>I'm Swapnil Gandhale</h1>
+      <h3>A Tech Enthusiast & Web Developer (Freelancer)</h3>
+      <p>Pune, India | Experience: 1 Year</p>
+      <a href="/cv.pdf" download>
+        <button className="download">Download CV</button>
+      </a>
+      <div style={{marginTop: '10px'}}>
+        <a href="https://github.com/yourusername">GitHub</a> | 
+        <a href="https://linkedin.com/in/yourusername">LinkedIn</a>
+      </div>
     </section>
   )
 }

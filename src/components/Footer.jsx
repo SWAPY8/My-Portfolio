@@ -1,7 +1,11 @@
 export default function Footer() {
   return (
-    <footer style={{ textAlign: 'center', padding: '20px 0', background: '#eee', marginTop: '40px' }}>
-      <p>© {new Date().getFullYear()} Swapnil Gandhale. All rights reserved.</p>
+    <footer className="card">
+      <div className="footer-icons">
+        <a href="https://github.com/SWAPY8">🐙 GitHub</a>
+        <a href="https://linkedin.com/in/https://www.linkedin.com/in/swapnil-gandhale-206a46253">🔗 LinkedIn</a>
+      </div>
+      <p>© {new Date().getFullYear()} Swapnil Gandhale</p>
     </footer>
   )
 }
