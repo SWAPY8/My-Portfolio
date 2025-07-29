@@ -1,0 +1,21 @@
+nav{
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: end;
+  gap: 25px;
+  
+}
+
+a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #0bc4f8;
+  position: sticky;
+}
+
+a:hover {
+  color: white;
+  text-decoration: underline;
+} 
