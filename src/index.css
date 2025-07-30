@@ -1,22 +1,20 @@
+@import "tailwindcss";
 body {
-  
-  background: linear-gradient(135deg, #1b0c1b, #cfcbe7);
-  color: rgb(232, 130, 21);
-  margin:30px;
-  font-family: 'Segoe UI', sans-serif;
+  background-color: #121212;
+  color: #00ffe7;
+
+  font-family: "Segoe UI", sans-serif;
 }
 a {
   color: blue;
   text-decoration: none;
 }
-section { padding: 60px 20px; max-width: 80vw; margin: auto; }
-h2 { font-size: 2em; margin-bottom: 0.5em; }
-.card {
-  background: white;
-  padding: 20px;
-  margin-bottom: 20px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
 }
+
 
 button.download {
   padding: 10px 20px;
@@ -27,7 +25,7 @@ button.download {
   border-radius: 4px;
 }
 
-.footer-icons a {
+/* .footer-icons a {
   margin: 0 10px;
   font-size: 1.5em;
 }
@@ -35,4 +33,4 @@ footer {
   text-align: center;
   padding: 20px 0;
   background: #eee;
-}
+} */

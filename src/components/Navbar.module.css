@@ -1,21 +1,28 @@
-nav{
-  padding: 20px;
-  margin: 20px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+nav {
+  padding: 10px;
+  margin-bottom: 10px;
   display: flex;
-  justify-content: end;
-  gap: 25px;
-  
+  justify-content:center;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+  z-index: 1000;
+  position: fixed;
+  top: 170px;
+  right: 0;
 }
 
-a {
-  margin: 0 1rem;
+nav a {
+  font-size: 18px;
   text-decoration: none;
-  color: #0bc4f8;
-  position: sticky;
+  color: #0bd8f8;
+  padding: 2px;
+  font-weight: bold;
+  font-style: italic;
+  transition: color 0.3s;
 }
 
 a:hover {
-  color: white;
+  color: rgb(205, 71, 71);
   text-decoration: underline;
-} 
+}

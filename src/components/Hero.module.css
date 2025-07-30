@@ -1,0 +1,40 @@
+section  {
+  padding: 60px 20px;
+  max-width: 80vw;
+  margin:50px auto ;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+.photo {
+  border: 2px solid #00ffe7;
+  border-radius: 50px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.info{
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.info > h1{
+  font-weight: bold;
+}
+.btns{
+  font-size: 1.2rem;
+  display: flex;
+  gap: 20px;
+  
+}
+button{
+  border: 2px solid #ecad0d;
+  border-radius: 29px;
+  padding: 9px;
+  margin: 10px;
+  color: antiquewhite;
+}
+
