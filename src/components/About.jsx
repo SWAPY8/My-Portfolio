@@ -1,21 +1,40 @@
-import styles from './About.module.css';
+import styles from "./About.module.css";
+
 export default function About() {
   return (
-    <section id="about">
-      <h2>About Me</h2>
-      <p>
-        I am a passionate learner with a strong interest in technology and innovation...
-        (full content from old site)
-      </p>
-      <ul>
-        <li><strong>Profile:</strong> Data Science & Analytics</li>
-        <li><strong>Domain:</strong> Development</li>
-        <li><strong>Education:</strong> BE AI&DS</li>
-        <li><strong>Languages:</strong> English, Hindi, Marathi</li>
-        <li><strong>BI Tools:</strong> Power BI, Looker, Tableau</li>
-        <li><strong>Other Skills:</strong> Cloud, PySpark, Excel, Git, JIRA, Google Analytics & SEO</li>
-        <li><strong>Interests:</strong> Traveling, Photography, Cricket</li>
-      </ul>
+    <section id="about" className={styles.about}>
+      <div className={styles.content}>
+        <div className={styles.info}>
+          <p>
+            Hi, I'm <strong>Swapnil Gandhale</strong>, a passionate Full-Stack
+            Developer from Pune, India. I enjoy building modern, responsive web
+            applications with React, Node.js, and Spring Boot. My goal is to
+            create impactful digital products while growing as a versatile
+            full-stack developer.
+          </p>
+
+          <ul className="about-list">
+            <li>
+              1 Year of development experience
+            </li>
+            <li>
+              Worked on React, Spring Boot, MongoDB & MySQL
+            </li>
+            <li>
+               Interested in AI integration & Ethical Hacking
+            </li>
+          </ul>
+
+          <div className={styles.actions}>
+            <a href="/resume.pdf" className={styles.button}>
+              Download CV
+            </a>
+          </div>
+        </div>
+        <div className={styles.photo}>
+          <img src="../src/assets/avatar.svg" alt="Swapnil Gandhale" />
+        </div>
+      </div>
     </section>
-  )
+  );
 }

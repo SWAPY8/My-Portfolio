@@ -11,7 +11,7 @@ export default function Hero() {
       </div>
       <div className={styles.info}>
         <h1>I'm Swapnil Gandhale</h1>
-        <h3>Full-Stack Developer & A Tech Enthusiast</h3>
+        <h3>Full-Stack Developer & An AI Enthusiast</h3>
         <p>Pune, India </p>
         <div className={styles.btns}>
           <button className={styles.github}>GitHub</button>

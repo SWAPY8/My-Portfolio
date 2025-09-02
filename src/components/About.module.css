@@ -1,0 +1,30 @@
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info > p, ul, a{
+    font-size: 1.3rem;
+}
+
+.photo {
+   
+   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button{
+  padding: 9px;
+  margin: 10px;
+  color: antiquewhite;
+}
+.info > ul{
+    list-style-type: disc;
+    color: aqua;
+    margin-left: 20px;
+}
+.about{
+   margin: -10px auto;
+}
