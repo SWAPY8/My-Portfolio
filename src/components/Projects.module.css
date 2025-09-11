@@ -1,0 +1,23 @@
+.prosection {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+.projects {
+  margin-left: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 2rem;
+}
+.projects > div {
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  width: 350px;
+}
+.projects > div > p{
+    color:  rgb(205, 71, 71);
+    font-size: 1.2rem;
+    margin: 5px;
+}
