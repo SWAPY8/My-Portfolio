@@ -3,7 +3,7 @@ export default function Projects() {
   return (
     <section id="projects" className={styles.prosection}>
       <h2>Projects</h2>
-      <br />
+      
       <div className={styles.projects}>
         <div className={styles.Vir_Doctor}>
           <img

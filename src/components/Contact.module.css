@@ -1,0 +1,93 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+.connect {
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.connect_card1 {
+  margin-right: 150px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  border: #61dafb solid 2px;
+  border-radius: 10px;
+}
+.form input {
+  padding: 0.8rem;
+  border: 2px solid yellow;
+  border-radius: 8px;
+  outline: none;
+  font-size: 1rem;
+  width: 250px;
+  margin: 10px;
+}
+.form textarea {
+  padding: 0.8rem;
+  border: 2px solid yellow;
+  border-radius: 8px;
+  outline: none;
+  font-size: 1rem;
+  width: 500px;
+  margin: 10px;
+}
+
+.form button {
+  padding: 0.2rem;
+  border: none;
+  border-radius: 8px;
+  background: #61dafb;
+  color: #111;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form button:hover {
+  background: #21a1f1;
+}
+.form_row {
+  display: flex;
+  gap: 20px;
+}
+
+.icons {
+  margin-top: 30px;
+  display: flex;
+}
+
+.icons > a {
+  height: 40px;
+  width: 40px;
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;          
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.icons > a > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;        
+  transition: transform 0.3s ease;
+}
+
+.icons > a:hover {
+  transform: scale(1.1);    
+  
+}
+

@@ -26,7 +26,7 @@ export default function Experience() {
         <button>Certificate</button>
       </div>
       <div className={styles.card}>
-        <p>Data Analyst Intern — Neu AI Labs (Sep–Nov 2024)</p>
+        <p>2) Data Analyst Intern — Neu AI Labs (Sep–Nov 2024)</p>
         <ul>
           <li>
             Participated in the AI Experience Program, focusing on real-world
