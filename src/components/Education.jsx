@@ -34,7 +34,7 @@ export default function Education() {
             </li>
           </ul>
         </p>
-        <button className={styles.btnstyle}>Result</button>
+        <button className={styles.btnstyle}><a href="../src/assets/TE_Result.jpg" target="_blank">Result</a></button>
       </div>
 
       <div className={styles.educard}>
@@ -50,7 +50,7 @@ export default function Education() {
             </li>
           </ul>
         </p>
-        <button className={styles.btnstyle}>Result</button>
+        <button className={styles.btnstyle}><a href="../src/assets/HSC_Result.jpg" target="_blank">Result</a></button>
       </div>
       <div className={styles.educard}>
         <h3>Secondary School (SSC)</h3>
@@ -64,7 +64,7 @@ export default function Education() {
             </li>
           </ul>
         </p>
-        <button className={styles.btnstyle}>Result</button>
+        <button className={styles.btnstyle}><a href="../src/assets/SSC_Result.jpg" target="_blank">Result</a></button>
       </div>
     </section>
   );

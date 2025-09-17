@@ -23,7 +23,7 @@ export default function Experience() {
             a landing page, and a calculator application.
           </li>
         </ul>
-        <button>Certificate</button>
+        <button><a href="../src/assets/codesoft_certi.pdf" target="_blank">Certificate</a></button>
       </div>
       <div className={styles.card}>
         <p>2) Data Analyst Intern — Neu AI Labs (Sep–Nov 2024)</p>
@@ -44,7 +44,7 @@ export default function Experience() {
             improve transport efficiency.
           </li>
         </ul>
-        <button>Certificate</button>
+        <button><a href="../src/assets/neuai_certi.jpg" target="_blank">Certificate</a></button>
       </div>
     </section>
   );

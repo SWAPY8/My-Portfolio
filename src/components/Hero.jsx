@@ -14,8 +14,19 @@ export default function Hero() {
         <h3>Full-Stack Developer & An AI Enthusiast</h3>
         <p>Pune, India </p>
         <div className={styles.btns}>
-          <button className={styles.github}>GitHub</button>
-          <button className={styles.resume}>Resume</button>
+          <button className={styles.github}>
+            <a href="https://github.com/SWAPY8" target="_blank">
+              GitHub
+            </a>
+          </button>
+          <button className={styles.linkedin}>
+            <a
+              href="https://www.linkedin.com/in/swapnil-gandhale-206a46253"
+              target="_blank"
+            >
+              LinkedIn
+            </a>
+          </button>
         </div>
       </div>
     </section>

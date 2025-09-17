@@ -9,24 +9,22 @@ export default function About() {
             Hi, I'm <strong>Swapnil Gandhale</strong>, a passionate Full-Stack
             Developer from Pune, India. I enjoy building modern, responsive web
             applications with React, Node.js, and Spring Boot. My goal is to
-            create impactful digital products while growing as a
-            full-stack developer.
+            create impactful digital products while growing as a full-stack
+            developer.
           </p>
 
           <ul className="about-list">
-            <li>
-              1 Year of development experience
-            </li>
-            <li>
-              Worked on React, Spring Boot, MongoDB & MySQL
-            </li>
-            <li>
-               Interested in AI integration & Ethical Hacking
-            </li>
+            <li>1 Year of development experience</li>
+            <li>Worked on React, Spring Boot & MySQL</li>
+            <li>Interested in AI integration & Ethical Hacking</li>
           </ul>
 
           <div className={styles.actions}>
-            <a href="/resume.pdf" className={styles.button}>
+            <a
+              href="../src/assets/Swapnil_cv.pdf"
+              className={styles.button}
+              target="_blank"
+            >
               Download CV
             </a>
           </div>

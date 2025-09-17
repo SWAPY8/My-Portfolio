@@ -1,25 +1,30 @@
-.education{
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: center;
+.education {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
 }
-.educard > h3{
-    font-weight: bold;
-    font-size: 1.5rem;
-   
+.educard > h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
 }
-.educard{
-    margin-left: 50px;
+.educard {
+  margin-left: 50px;
 }
-.educard > p > ul{
-    font-size: 1rem;
-    list-style-type: disc;
-    margin-left: 20px;
+.educard > p > ul {
+  font-size: 1rem;
+  list-style-type: disc;
+  margin-left: 20px;
 }
-.gpastyle{
-    color: rgb(217, 71, 71);
+.gpastyle {
+  color: rgb(217, 71, 71);
 }
-.btnstyle{
-    padding: 5px 13px;
+.btnstyle {
+  padding: 5px 13px;
+  
+}
+.btnstyle > a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
 }
