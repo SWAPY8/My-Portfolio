@@ -8,7 +8,7 @@ export default function About() {
           <p>
             Hi, I'm <strong>Swapnil Gandhale</strong>, a passionate Full-Stack
             Developer from Pune, India. I enjoy building modern, responsive web
-            applications with React, Node.js, and Spring Boot. My goal is to
+            applications with React, Node.js and Spring Boot. My goal is to
             create impactful digital products while growing as a full-stack
             developer.
           </p>

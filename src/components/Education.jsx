@@ -17,7 +17,7 @@ export default function Education() {
           Key Courses: Data Structures & Algorithms, Machine Learning, Database
           Management, <br /> Software Engineering, Cloud Computing, UI/UX.
         </p>
-        <p>
+        <div>
           Academic Projects:
           <ul>
             <li>
@@ -33,7 +33,7 @@ export default function Education() {
               research.
             </li>
           </ul>
-        </p>
+        </div>
         <button className={styles.btnstyle}><a href="../src/assets/TE_Result.jpg" target="_blank">Result</a></button>
       </div>
 
@@ -41,7 +41,7 @@ export default function Education() {
         <h3>Higher Secondary (HSC) – Science </h3>
         <p>L.G.Bansude Junior College palasdeo, Indapur | 2021 – 2022</p>
         <p className={styles.gpastyle}>Grade : 78%</p>
-        <p>
+        <div>
           <ul>
             <li>Stream: Science (Physics, Chemistry, Mathematics, English)</li>
             <li>
@@ -49,21 +49,21 @@ export default function Education() {
               quiz competitions
             </li>
           </ul>
-        </p>
+        </div>
         <button className={styles.btnstyle}><a href="../src/assets/HSC_Result.jpg" target="_blank">Result</a></button>
       </div>
       <div className={styles.educard}>
         <h3>Secondary School (SSC)</h3>
         <p>L.G.Bansude School palasdeo, Indapur | 2019 – 2020</p>
         <p className={styles.gpastyle}>Grade : 89.60%</p>
-        <p>
+        <div>
           <ul>
             <li>Excelled in core subjects: Mathematics, Science and English</li>
             <li>
               Represented class in school-level cricket tournaments.
             </li>
           </ul>
-        </p>
+        </div>
         <button className={styles.btnstyle}><a href="../src/assets/SSC_Result.jpg" target="_blank">Result</a></button>
       </div>
     </section>

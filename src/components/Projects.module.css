@@ -21,3 +21,8 @@
     font-size: 1.2rem;
     margin: 5px;
 }
+.projects img:hover{
+  transform: scale(1.05);
+  transition: transform 0.5s ease-in-out;
+} 
+  

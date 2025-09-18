@@ -56,7 +56,10 @@
 
 .form button:hover {
   background: #21a1f1;
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
 }
+
 .form_row {
   display: flex;
   gap: 20px;
@@ -87,7 +90,8 @@
 }
 
 .icons > a:hover {
-  transform: scale(1.1);    
+  transform: scale(1.1);  
+  transition: transform 0.3s ease;  
   
 }
 

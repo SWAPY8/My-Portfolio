@@ -1,22 +1,28 @@
 import styles from "./Contact.module.css";
-import { useRef } from "react";
+// import { useRef } from "react";
+import {useState} from "react";
 import emailjs from "emailjs-com";
 export default function Contact() {
-  const form = useRef();
+
+  const form = useState();
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [msg, setMsg] = useState("");
 
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID", // from EmailJS
-        "YOUR_TEMPLATE_ID", // from EmailJS
+        "service_y2fhrmu", // from EmailJS
+        "template_hnzow8s", // from EmailJS
         form.current,
-        "YOUR_PUBLIC_KEY" // from EmailJS
+        "oT1FBEZmqSxBvOzYN" // from EmailJS
       )
       .then(
         () => {
           alert("Message sent successfully");
+          e.target.reset();
         },
         (error) => {
           alert("Message failed : " + error.text);
@@ -41,13 +47,19 @@ export default function Contact() {
             <a href="https://github.com/SWAPY8" target="_blank">
               <img src="../src/assets/github_icon.png" alt="Github" />
             </a>
-            <a href=" https://www.linkedin.com/in/swapnil-gandhale-206a46253" target="_blank" >
+            <a
+              href=" https://www.linkedin.com/in/swapnil-gandhale-206a46253"
+              target="_blank"
+            >
               <img src="../src/assets/linkedin_icon.png" alt="Linkedin" />
             </a>
-            <a href="https://leetcode.com/u/6aFOFsFi6w/" target="_blank" >
+            <a href="https://leetcode.com/u/6aFOFsFi6w/" target="_blank">
               <img src="../src/assets/leetcode_icon.png" alt="Leetcode" />
             </a>
-            <a href="https://www.instagram.com/swapy348?igsh=MjIybmQzZ254NHl3" target="_blank">
+            <a
+              href="https://www.instagram.com/swapy348?igsh=MjIybmQzZ254NHl3"
+              target="_blank"
+            >
               <img src="../src/assets/insta_icon.jpeg" alt="Instagram" />
             </a>
           </div>
