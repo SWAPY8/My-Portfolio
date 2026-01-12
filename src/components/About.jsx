@@ -1,7 +1,6 @@
 import styles from "./About.module.css";
-import cvFile from "../assets/Swapnil_cv.pdf";
+import cvFile from "../assets/Swapnil_CV.pdf";
 import avatarImg from "../assets/avatar.svg";
-
 export default function About() {
   return (
     <section id="about" className={styles.about}>
