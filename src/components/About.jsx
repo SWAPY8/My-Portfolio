@@ -1,5 +1,7 @@
 import styles from "./About.module.css";
-
+<div className={styles.photo}>
+  <img src="../src/assets/avatar.svg" alt="Swapnil Gandhale" />
+</div>;
 export default function About() {
   return (
     <section id="about" className={styles.about}>
@@ -21,16 +23,17 @@ export default function About() {
 
           <div className={styles.actions}>
             <a
-              href="../src/assets/Swapnil_cv.pdf"
+              href={cvFile}
               className={styles.button}
               target="_blank"
+              rel="noopener noreferrer"
             >
               Download CV
             </a>
           </div>
         </div>
         <div className={styles.photo}>
-          <img src="../src/assets/avatar.svg" alt="Swapnil Gandhale" />
+          <img src={avatarImg} alt="Swapnil Gandhale" />
         </div>
       </div>
     </section>

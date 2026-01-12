@@ -4,13 +4,9 @@ import profilePic from "../assets/profile_picture.jpg";
 export default function Hero() {
   return (
     <section id="home" className="hero">
-     <div className={styles.photo}>
-  <img
-    src={profilePic}
-    alt="swapy-img"
-    width="250"
-  />
-</div>
+      <div className={styles.photo}>
+        <img src={profilePic} alt="swapy-img" width="250" />
+      </div>
 
       <div className={styles.info}>
         <h1>I'm Swapnil Gandhale</h1>

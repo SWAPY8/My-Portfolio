@@ -5,10 +5,9 @@ import leetcodeIcon from "../assets/leetcode_icon.png";
 import instaIcon from "../assets/insta_icon.jpeg";
 
 // import { useRef } from "react";
-import {useState} from "react";
+import { useState } from "react";
 import emailjs from "emailjs-com";
 export default function Contact() {
-
   const form = useState();
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -49,39 +48,38 @@ export default function Contact() {
           <p>📧 Email: swapnilofficial08@gmail.com </p>
           <p>📱Phone: +91 9284850474</p>
           <div className={styles.icons}>
-  <a
-    href="https://github.com/SWAPY8"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <img src={githubIcon} alt="GitHub" />
-  </a>
+            <a
+              href="https://github.com/SWAPY8"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={githubIcon} alt="GitHub" />
+            </a>
 
-  <a
-    href="https://www.linkedin.com/in/swapnil-gandhale-206a46253"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <img src={linkedinIcon} alt="LinkedIn" />
-  </a>
+            <a
+              href="https://www.linkedin.com/in/swapnil-gandhale-206a46253"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={linkedinIcon} alt="LinkedIn" />
+            </a>
 
-  <a
-    href="https://leetcode.com/u/6aFOFsFi6w/"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <img src={leetcodeIcon} alt="LeetCode" />
-  </a>
+            <a
+              href="https://leetcode.com/u/6aFOFsFi6w/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={leetcodeIcon} alt="LeetCode" />
+            </a>
 
-  <a
-    href="https://www.instagram.com/swapy348?igsh=MjIybmQzZ254NHl3"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <img src={instaIcon} alt="Instagram" />
-  </a>
-</div>
-
+            <a
+              href="https://www.instagram.com/swapy348?igsh=MjIybmQzZ254NHl3"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={instaIcon} alt="Instagram" />
+            </a>
+          </div>
         </div>
         <div className={styles.connect_card2}>
           <form ref={form} onSubmit={sendEmail} className={styles.form}>
