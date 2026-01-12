@@ -1,4 +1,8 @@
 import styles from "./Education.module.css";
+import teResult from "../assets/TE_Result.jpg";
+import hscResult from "../assets/HSC_Result.jpg";
+import sscResult from "../assets/SSC_Result.jpg";
+
 export default function Education() {
   return (
     <section id="education" className={styles.education}>
@@ -34,7 +38,11 @@ export default function Education() {
             </li>
           </ul>
         </div>
-        <button className={styles.btnstyle}><a href="../src/assets/TE_Result.jpg" target="_blank">Result</a></button>
+        <button className={styles.btnstyle}>
+          <a href={teResult} target="_blank" rel="noopener noreferrer">
+            Result
+          </a>
+        </button>
       </div>
 
       <div className={styles.educard}>
@@ -50,7 +58,11 @@ export default function Education() {
             </li>
           </ul>
         </div>
-        <button className={styles.btnstyle}><a href="../src/assets/HSC_Result.jpg" target="_blank">Result</a></button>
+        <button className={styles.btnstyle}>
+          <a href={hscResult} target="_blank" rel="noopener noreferrer">
+            Result
+          </a>
+        </button>
       </div>
       <div className={styles.educard}>
         <h3>Secondary School (SSC)</h3>
@@ -59,12 +71,14 @@ export default function Education() {
         <div>
           <ul>
             <li>Excelled in core subjects: Mathematics, Science and English</li>
-            <li>
-              Represented class in school-level cricket tournaments.
-            </li>
+            <li>Represented class in school-level cricket tournaments.</li>
           </ul>
         </div>
-        <button className={styles.btnstyle}><a href="../src/assets/SSC_Result.jpg" target="_blank">Result</a></button>
+        <button className={styles.btnstyle}>
+          <a href={sscResult} target="_blank" rel="noopener noreferrer">
+            Result
+          </a>
+        </button>{" "}
       </div>
     </section>
   );

@@ -1,4 +1,6 @@
 import styles from "./Experience.module.css";
+import codesoftCert from "../assets/codesoft_certi.pdf";
+import neuaiCert from "../assets/neuai_certi.jpg";
 export default function Experience() {
   return (
     <section id="experience" className={styles.section}>
@@ -24,7 +26,7 @@ export default function Experience() {
           </li>
         </ul>
         <button>
-          <a href="../src/assets/codesoft_certi.pdf" target="_blank">
+          <a href={codesoftCert} target="_blank" rel="noopener noreferrer">
             Certificate
           </a>
         </button>
@@ -38,8 +40,8 @@ export default function Experience() {
             visualizing datasets.
           </li>
           <li>
-            Gained hands-on experience in data preprocessing, feature
-            extraction and trend analysis while working on real-world datasets.
+            Gained hands-on experience in data preprocessing, feature extraction
+            and trend analysis while working on real-world datasets.
           </li>
           <li>
             Applied these skills in a project analyzing Uber ride data in Pune,
@@ -53,7 +55,7 @@ export default function Experience() {
           </li>
         </ul>
         <button>
-          <a href="../src/assets/neuai_certi.jpg" target="_blank">
+          <a href={neuaiCert} target="_blank" rel="noopener noreferrer">
             Certificate
           </a>
         </button>

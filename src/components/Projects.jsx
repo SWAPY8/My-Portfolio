@@ -1,4 +1,9 @@
 import styles from "./Projects.module.css";
+import virDoctorImg from "../assets/Vir_Doctor.jpg";
+import netflixImg from "../assets/Netflix.jpg";
+import uberImg from "../assets/Uber_ride.jpg";
+import studentImg from "../assets/Student_Man.jpg";
+import naveyeImg from "../assets/Naveye.jpg";
 export default function Projects() {
   return (
     <section id="projects" className={styles.prosection}>
@@ -6,13 +11,9 @@ export default function Projects() {
 
       <div className={styles.projects}>
         <div className={styles.Vir_Doctor}>
-          <a href="https://github.com/SWAPY8" target="_blank">
-            <img
-              src="../src/assets/Vir_Doctor.jpg"
-              alt="Virtual Doctor"
-              width={300}
-            />
-          </a>
+          <a href="https://github.com/SWAPY8" target="_blank" rel="noopener noreferrer">
+    <img src={virDoctorImg} alt="Virtual Doctor" width={300} />
+  </a>
           <p>IoT-Based Virtual Doctor</p>
           <div>
             The IoT-Based Virtual Doctor monitors patient health remotely using
@@ -21,13 +22,9 @@ export default function Projects() {
           </div>
         </div>
         <div className={styles.second}>
-          <a href="https://github.com/SWAPY8" target="_blank">
-            <img
-              src="../src/assets/Netflix.jpg"
-              alt="Virtual Doctor"
-              width={300}
-            />
-          </a>
+          <a href="https://github.com/SWAPY8" target="_blank" rel="noopener noreferrer">
+    <img src={netflixImg} alt="Netflix Clone" width={300} />
+  </a>
           <p>Netflix Clone (Responsive UI)</p>
           <div>
             A responsive Netflix Clone built using HTML, CSS and JavaScript
@@ -37,13 +34,9 @@ export default function Projects() {
           </div>
         </div>
         <div className={styles.third}>
-          <a href="https://github.com/SWAPY8" target="_blank">
-            <img
-              src="../src/assets/Uber_ride.jpg"
-              alt="Virtual Doctor"
-              width={300}
-            />
-          </a>
+          <a href="https://github.com/SWAPY8" target="_blank" rel="noopener noreferrer">
+    <img src={uberImg} alt="Uber Ride Analysis" width={300} />
+  </a>
           <p>Uber-Ride Data Analysis</p>
           <div>
             Conducted exploratory data analysis on Uber ride data to uncover
@@ -52,13 +45,9 @@ export default function Projects() {
           </div>
         </div>
         <div className={styles.fourth}>
-          <a href="https://github.com/SWAPY8" target="_blank">
-            <img
-              src="../src/assets/Student_Man.jpg"
-              alt="Virtual Doctor"
-              width={300}
-            />
-          </a>
+          <a href="https://github.com/SWAPY8" target="_blank" rel="noopener noreferrer">
+    <img src={studentImg} alt="Student Management System" width={300} />
+  </a>
           <p>Student Management System</p>
           <div>
             Developed a Student Management System using React for the frontend
@@ -66,13 +55,9 @@ export default function Projects() {
           </div>
         </div>
         <div className={styles.fifth}>
-          <a href="https://github.com/SWAPY8" target="_blank">
-            <img
-              src="../src/assets/Naveye.jpg"
-              alt="Virtual Doctor"
-              width={300}
-            />
-          </a>
+          <a href="https://github.com/SWAPY8" target="_blank" rel="noopener noreferrer">
+    <img src={naveyeImg} alt="Naveye Assistive System" width={300} />
+  </a>
           <p>Naveye - Assistive System for Visually Impaired</p>
           <div>
             Is a wearable system for visually impaired users that detects
