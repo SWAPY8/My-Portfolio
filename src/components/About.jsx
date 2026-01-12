@@ -1,7 +1,7 @@
 import styles from "./About.module.css";
-<div className={styles.photo}>
-  <img src="../src/assets/avatar.svg" alt="Swapnil Gandhale" />
-</div>;
+import cvFile from "../assets/Swapnil_cv.pdf";
+import avatarImg from "../assets/avatar.svg";
+
 export default function About() {
   return (
     <section id="about" className={styles.about}>
