@@ -1,14 +1,17 @@
 import styles from "./Hero.module.css";
+import profilePic from "../assets/profile_picture.jpg";
+
 export default function Hero() {
   return (
     <section id="home" className="hero">
-      <div className={styles.photo}>
-        <img
-          src="../src/assets/profile_picture.jpg"
-          alt="swapy-img"
-          width="250px"
-        />
-      </div>
+     <div className={styles.photo}>
+  <img
+    src={profilePic}
+    alt="swapy-img"
+    width="250"
+  />
+</div>
+
       <div className={styles.info}>
         <h1>I'm Swapnil Gandhale</h1>
         <h3>Full-Stack Developer & An AI Enthusiast</h3>
